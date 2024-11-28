@@ -99,7 +99,7 @@ function area(form, a, b) {
         console.log(sum);
     }
     else if("triangle" == form) {
-        let sum = ((4.5 * 20) / 2).toFixed(3);
+        let sum = ((a * b) / 2).toFixed(3);
         console.log(sum);
     }
    
